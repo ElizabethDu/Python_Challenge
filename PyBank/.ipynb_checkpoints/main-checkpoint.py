@@ -8,12 +8,9 @@
 import os 
 import csv
 
-
 #Path
-budget_csv = r'C:\Projects\Python_Challenge\PyBank\Resources\budget_data.csv'
-output_path = r'C:\Projects\Python_Challenge\PyBank\Analysis\PyBankAnalysis.txt'
-#budget_csv = os.path.join('Resources', 'budget_data.csv')
-#output_path = os.path.join('Analysis', 'PyBankAnalysis.txt')
+budget_csv = os.path.join('Resources', 'budget_data.csv')
+output_path = os.path.join('Analysis', 'PyBankAnalysis.txt')
 
 with open(budget_csv, 'r') as csvfile:
     #split the data
